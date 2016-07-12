@@ -1,0 +1,50 @@
+[20-Nov-2015 09:21:37 UTC] PHP Fatal error:  Class 'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider' not found in D:\project\laravel\auction\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php on line 146
+[20-Nov-2015 09:22:51 UTC] PHP Fatal error:  Class 'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider' not found in D:\project\laravel\auction\vendor\laravel\framework\src\Illuminate\Foundation\ProviderRepository.php on line 146
+[20-Nov-2015 09:56:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 09:56:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:02:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:02:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:23:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:23:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:23:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:23:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:24:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:25:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[20-Nov-2015 10:25:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:47:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:47:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[27-Nov-2015 10:29:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[27-Nov-2015 10:29:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Dec-2015 09:54:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_firebird.dll' - The specified module could not be found.
+ in Unknown on line 0
+[09-Dec-2015 09:54:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\php_pdo_oci.dll' - The specified module could not be found.
+ in Unknown on line 0

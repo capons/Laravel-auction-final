@@ -1,0 +1,12 @@
+По Ларавель - изначально нужен был сайт на ВП, но Андрей предложил реализовать на Ларавеле. В админке они хотят видеть что-то такое http://clip2net.com/s/3oX5mfr. Согласно функционалу, в админ-панели предложили разместить юзер-страницу, страницу, страницу с офферами клиентов, пеймент страницу клиентов. По поводу систем оплаты - пока нет информации какие нужно прикручивать.  Разбили разработку на части:
+1. install software on server if neede (maybe I will do it if it is the case)
+2. develop web portal (front-end)
+3. develop back-end functionalities
+4. design and create database structure
+5. develop email service
+6. develop admin panel
+
+
+
+-------
+Клиент хочет разработать что-т о похожее на этот сайт  http://raise5.com

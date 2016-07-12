@@ -1,0 +1,3 @@
+https://github.com/zofe/rapyd-laravel - dataGrid manual
+
+https://github.com/zofe/rapyd-laravel/wiki/DataFilter - dataFilter + Filter
