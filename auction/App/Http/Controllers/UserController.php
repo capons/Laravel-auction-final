@@ -27,10 +27,7 @@ class UserController extends Controller {
 	}
 
 	public function getIndex(){  //main view
-
-		echo phpinfo();
-
-
+		
 		return view('user.index');
 	}
 

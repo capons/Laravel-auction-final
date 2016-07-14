@@ -32,39 +32,10 @@ Route::get('auth/active', 'Auth\AuthController@postActivate'); //activate user a
 Route::get('home','UserController@getIndex'); //maby page for quest
 
 //Promise buy routes
-Route::get('promise/buy','PromiseController@promiseBuy');
-Route::get('promise/buy/{id}', function($id) {
-    $category = Category::all();
-    $promise = \DataSet::source(
-        DB::table('promise')
-            ->join('category','promise.category_id', '=', 'category.id')
-            ->join('file','promise.file_id', '=', 'file.id')
-            ->join('request', 'promise.id', '=', 'request.promise_id')
-            ->join('users', 'users.id', '=', 'request.users_id')
-            ->select('promise.id','promise.title','promise.description','promise.price','promise.type','promise.auction_end','promise.active','category.name as category_name','file.path as file_path','file.url','file.name as file_name','request.amount', 'users.f_name')
-            ->where('promise.active','=',1)
-            ->where ('category.id', '=' , $id)
-    );
-    //$promise->addOrderBy(['title','id']);
-    $promise->paginate(5);
-    //$promise->build();
-    $promise->build();
-    return view('promise.buy', ['category' => $category],compact('promise'));
-});
-//Promise detailes
-Route::get('promise/details/{id}', function($id){
-    $promise_details =  DB::table('promise')
-        ->join('category','promise.category_id', '=', 'category.id')
-        ->join('file','promise.file_id', '=', 'file.id')
-        ->join('request', 'promise.id', '=', 'request.promise_id')
-        ->join('users', 'users.id', '=', 'request.users_id')
-        ->join('location','promise.location_id','=','location.id')
-        ->select('promise.id','promise.title','promise.description','promise.price','promise.terms','promise.type','promise.auction_end','promise.active','promise.winners','category.name as category_name','file.path as file_path','file.url','file.name as file_name','request.amount', 'users.f_name','location.name as location_name')
-        ->where ('promise.id', '=' , $id)
-        ->get();
-    
-    return view('promise.details', ['promise_details' => $promise_details]);
-});
+Route::get('promise/buy','PromiseController@promiseBuy'); //display all promise
+Route::get('promise/buy/{id}','PromiseController@promiseCat'); //display promise in select category
+Route::get('promise/details/{id}','PromiseController@promiseDetails'); //display promise detailes
+
 
 
 
